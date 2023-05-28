@@ -13,9 +13,9 @@ def generate_qr_code (text, file_name):
     img.save(file_name)
 
 # Digite o texto que estará contido no QR code
-text = "https://www.youtube.com/watch?v=rY-FJvRqK0E"
+text = "texto"
 # Dê um nome para salvar o arquivo
-file_name = "flamingo.png"
+file_name = "nome.png"
 # Gerar o QR code
 generate_qr_code(text, file_name)
 print(f"QR code saved as {file_name}")
